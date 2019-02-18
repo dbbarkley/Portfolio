@@ -1,0 +1,175 @@
+.parallax-container {
+    height: 667px!important;
+  }
+.main{
+    padding-right: 0px;
+  }
+
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+    padding-left: 0;
+    }
+  }
+.menu {
+    position: relative;
+    margin-top: 3%;
+    margin-left: 90%;
+    background-color: rgb(77, 76, 76);
+    width: 66px;
+    height: 60px;
+    border-radius: 5px;
+  }
+.button-collapse {
+    margin-top: 4px;
+    margin-left: 3px;
+  }
+.click-menu {
+    color: rgb(226, 193, 4);
+}
+.side-menu {
+    background-color: rgb(77, 76, 76)!important;
+}
+#image {
+    height: 200px!important;
+}
+.complete {
+    margin-top: -9px!important;
+}
+.name {
+    position: relative;
+    width: 300px!important;
+    margin-top: 120px!important;
+    padding: 12px;
+    padding-left: 45px;
+    margin-left: -32px;
+    font-size: 30px!important;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(4, 156, 226);
+    opacity: 0.9;
+}
+#name {
+    position: relative;
+    margin-top: 12%;
+    margin-left: 38.5%;
+    color: white;
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+  }
+#home, #about-me, #portfolio, #resume, #contact {
+    color: white;
+    font-size: 20px;
+    margin-bottom: -5px;
+    padding-left: 20%; 
+}
+#fragment2 {
+    font-size: 60px;
+    margin-left: 30%;
+    color: rgb(226, 193, 4);
+    font-family: 'Merriweather', serif;
+    margin-top: -60px;
+}
+#fragment1
+{
+    font-size: 60px;
+    margin-left: 32.2%;
+    margin-top: 20px;
+    color: rgb(226, 193, 4);
+    font-family: 'Merriweather', serif;
+    width: 25em;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: frag1type 7s steps(50, end) 0s infinite;
+    animation: frag1type 7s steps(50, end) 0s infinite;
+}
+@keyframes frag1type{
+    
+    from { width: 0;}
+    37%{width:25em;}
+    49%{width:0;}
+    100%{width:0;}
+}
+
+@-webkit-keyframes frag1type{
+
+    from { width: 0;}
+    37%{width:25em;}
+    49%{width:0;}
+    100%{width:0;}
+}
+#fragment2
+{
+    opacity: 0;
+    width: 25em;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: frag2type 7s steps(50, end) 3.5s infinite;
+
+    animation: frag2type 7s steps(50, end) 3.5s infinite;
+}
+@keyframes frag2type{
+		    
+    from { width: 0; opacity:1; }
+    37%{width:25em;opacity:1; }
+    49%{width:0;opacity:1; }
+    100%{width:0;opacity:1; }
+}
+
+@-webkit-keyframes frag2type{
+    from { width: 0; opacity:1; }
+    37%{width:25em;opacity:1; }
+    49%{width:0;opacity:1; }
+    100%{width:0;opacity:1; }
+}
+.portfolio-container {
+    background-color: rgb(41, 40, 40);
+    padding-bottom: 425px;
+    padding-top: 10px;
+}
+#about {
+    position: relative;
+    width: 9.5%;
+    margin: auto;
+    margin-top: -3%;
+    color: white;
+}
+hr {
+    border-bottom-color: rgb(226, 193, 4);
+    border-top-color: rgb(226, 193, 4);
+    background-color: rgb(226, 193, 4);
+    border-inline-end-color: rgb(226, 193, 4); 
+    border-radius: 3px;
+    height: 2px!important;
+    width: 5%;
+}
+#portfolio-image {
+    width: 450px;
+    height: 350px;
+    border: 2px rgb(31, 30, 30) solid;
+    border-radius: 3px;
+    box-shadow: 2px 2px 25px 2px rgb(24, 24, 24);
+}
+.about-me {
+    width: 88%;
+    margin: auto;
+    margin-top: 5%;
+}
+#description {
+    color: white;
+    margin-top: -.5%;   
+    letter-spacing: 1px;
+}
+#text {
+    color: white;
+    clear: inherit;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+#name-color {
+    color: rgb(226, 193, 4);
+}
+.main-content {
+    margin-left: -6%!important;
+}
+#p-name, #p-age, #p-email, #p-phone, #p-address, #p-freelance {
+    font-size: 15px;
+}
