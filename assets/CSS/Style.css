@@ -132,14 +132,15 @@
     margin-top: -3%;
     color: white;
 }
-hr {
+#about-me-hr {
     border-bottom-color: rgb(226, 193, 4);
     border-top-color: rgb(226, 193, 4);
     background-color: rgb(226, 193, 4);
     border-inline-end-color: rgb(226, 193, 4); 
     border-radius: 3px;
     height: 2px!important;
-    width: 5%;
+    margin-top: -.2%;
+    width: 6%;
 }
 #portfolio-image {
     width: 450px;
@@ -160,7 +161,6 @@ hr {
 }
 #text {
     color: white;
-    clear: inherit;
     letter-spacing: 1px;
     line-height: 25px;
 }
@@ -170,6 +170,52 @@ hr {
 .main-content {
     margin-left: -6%!important;
 }
+#name-hr, #age-hr, #email-hr, #phone-hr, #address-hr, #freelance-hr {
+    border-bottom-color: rgb(226, 193, 4);
+    border-top-color: rgb(226, 193, 4);
+    background-color: rgb(226, 193, 4);
+    border-inline-end-color: rgb(226, 193, 4); 
+    border-radius: 3px;
+    width: 20%;
+    margin-left: -4%;
+}
+#age-hr {
+    width: 13%;
+}
+#email-hr {
+    width: 19%;
+}
+#phone-hr {
+    width: 21.5%;
+}
+#address-hr {
+    width: 28%;
+}
+#freelance-hr {
+    width: 33.5%;
+}
+#span-name, #span-age, #span-email, #span-phone, #span-address, #span-freelance {
+    color: white;
+    font-size: 17px;
+}
 #p-name, #p-age, #p-email, #p-phone, #p-address, #p-freelance {
-    font-size: 15px;
+    font-size: 20px;
+    color: rgb(175, 173, 173);
+    margin-left: -4.5%!important;
+    margin-top: 7%;
+}
+.fonts {
+    font-size: 50px;
+    color: rgb(226, 193, 4);
+    margin-top: 20%;
+    margin-left: 45%;
+}
+h5 {
+    color: white;
+    text-align: center;
+}
+.web-text {
+    color: white;
+    text-align: center;
+    margin-bottom: -80%;
 }
