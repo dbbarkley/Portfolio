@@ -13,7 +13,7 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <div class="portfolio-container">
+    <div class="contact-container">
             <div class="menu"><a id="click-menu" href="#" data-activates="slide-out" class="button-collapse"><i class="medium material-icons click-menu">menu</i></a></div>
             <ul id="slide-out" class="side-nav side-menu">
                     <li><div class="user-view">
@@ -35,57 +35,44 @@
                     <li><div class="divider"></div></li>
                   </ul>
 
-     
-        <h3 id="about">About</h3>
-        <hr id="about-me-hr">
-        <div class="row about-me">
-            <div class="col s6">
-            <img id="portfolio-image" src="assets/Images/test4.jpg">
-        </div>
-        <div class="main-content col s6">
-            <div class="row">
-            <h5 id="description">Full-Stack Developer & Web Designer</h5>
-            <p id="text">Hello! I’m <span id="name-color">Daniel Barkley</span>. I'm a Web Developer with experience in all stages of the development cycle for dynamic web projects. Having an in-depth knowledge, including advanced <span id="name-color">HTML5, CSS3, JavaScript, jQuery, Node.JS.</span> I aim to make a difference through my creative solutions.</p>
-        <div class="col s6">
-            <p id="p-name">Name: <span id="span-name">Daniel Barkley</span></p>
-            <hr id="name-hr">
-            <p id="p-age">Age: <span id="span-age">26</span></p>
-            <hr id="age-hr">
-            <p id="p-email">Email: <span id="span-email">dbbarkley93@gmail.com</span></p>
-            <hr id="email-hr">
-        </div>
-        <div class="col s6">
-            <p id="p-phone">Phone: <span id="span-phone">512-960-0262</span></p>
-            <hr id="phone-hr">
-            <p id="p-address">Address: <span id="span-address">123 Lorem Ipsum</span></p>
-            <hr id="address-hr">
-            <p id="p-freelance">Freelance: <span id="span-freelance">Available</span></p>
-            <hr id="freelance-hr">
-        </div>
-        </div>
-        </div>
-        </div>
+    <h3 id="contact-page">Contact</h3>
+    <hr id="contact-hr">              
 
-        <h3 id="services">Services</h3>
-        <hr id="services-hr">
-
-        <div class="row">
-            <div class="col s4">
-                <i class="fas fa-desktop fonts" aria-hidden='true'></i>
-                <h5>Web development</h5>
-                <p class="web-text">Elit aspernatur provident maxime culpa quo Sed quia doloremque iusto cum quidem? Amet asperiores consequatur</p>
-            </div>
-                <div class="col s4">
-                <i class="fas fa-dice-d20 fonts" aria-hidden='true'></i>
-                <h5>Brand Identity</h5>
-                <p class="web-text">Elit aspernatur provident maxime culpa quo Sed quia doloremque iusto cum quidem? Amet asperiores consequatur</p>
-            </div>
-            <div class="col s4">
-                <i class="far fa-lightbulb fonts" aria-hidden='true'></i>
-                <h5>Support</h5>
-                <p class="web-text">Elit aspernatur provident maxime culpa quo Sed quia doloremque iusto cum quidem? Amet asperiores consequatur</p>
-            </div>
+    <div class="row">
+        <div class="col s6"></div>
+        <div class="col s6">
+            <div class="row submit-message">
+                <form class="col s12">
+                  <div class="row email">
+                    <div class="input-field col s12">
+                      <input placeholder="Your Name" id="first_name" type="text" class="validate">
+                      <label for="first_name"></label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <input placeholder="Your Email" id="email" type="email" class="validate">
+                      <label for="email"></label>
+                    </div>
+                </div>
+                <div class="row">
+                    <form class="col s12">
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <textarea id="textarea1" class="materialize-textarea"></textarea>
+                          <label for="textarea1">Message</label>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <a class="waves-effect waves-light btn-large"><i class="material-icons left">send</i>Send Message</a>
+                      
+                    
+                  </div>
+                </form>
+              </div>
         </div>
+      </div>
 
     </div>
     <script
@@ -94,5 +81,5 @@
     crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script src="assets/JS/app.js"></script>
-</body>
+    </body>
 </html>
