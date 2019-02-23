@@ -1,6 +1,17 @@
 $(document).ready(function(){
-    $('.parallax').parallax();
-  });
+  $('.parallax').parallax();
+});
+
+$(document).ready(function(){
+  $('.modal').modal();
+});
+
+$(".submit-btn").on("click", function() {
+  $("#first_name").val("");
+  $("#email").val("");
+  $("#textarea1").val("");
+})
+
   
 // Initialize collapse button
 $(".button-collapse").sideNav();
