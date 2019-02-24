@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $('.parallax').parallax();
   $('.modal').modal();
-  $('.scrollspy').scrollSpy();
+  $(".scrollspy").scrollSpy();
 });
 
 $(".submit-btn").on("click", function() {
