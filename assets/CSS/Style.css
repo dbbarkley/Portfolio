@@ -561,3 +561,83 @@
     }
 
 }
+@media screen and (max-width: 768px) {
+    
+    #name {
+        margin-left: 30.5%;
+    }
+    #fragment2 {
+        margin-left: 16%;
+    }
+    #fragment1 {
+        margin-left: 19%;
+    }
+    #about {
+        margin-left: 38.1%;
+    }
+    #about-me-hr {
+        margin-left: 36.8%;
+    }
+    .main-content {
+        margin-left: 11%;
+        width: 80%!important;
+    }
+    #portfolio-image {
+        margin-left: 21.9%;
+        margin-bottom: 30px;
+    }
+    #services {
+        margin-left: 40%;
+    }
+    #services-hr {
+        margin-left: 43.2%;
+        width: 13%;
+        margin-top: -1%;
+    }
+    #portfolio-text {
+        margin-left: 40%;
+    }
+    #portfolio-hr {
+        margin-left: 37.2%;
+    }
+    .fonts {
+        margin-left: 39.9%;
+    }
+    .image-container {
+        width: 450px;
+        height: 300px;
+        margin-left: 32.5%;
+    }  
+    .text {
+        padding: 75px 115px;
+    }
+    #contact-hr {
+        margin-left: 39%;
+    }
+    #touch-hr {
+        margin-left: 42%;
+        width: 20%;
+    }
+    #get-in-touch {
+        margin-left: 27%;
+    }
+    #contact-phone-hr, #contact-follow-hr {
+        width: 10%;
+    }
+    #contact-address-hr {
+        width: 14%;
+    }
+    #contact-email-hr {
+        width: 9%;
+    }
+    .submit-btn {
+        margin-left: 24%;
+    }
+    iframe {
+        width: 860px!important;
+    }
+    .top-btn {
+        margin-left: 40.1%;
+    }
+
+}
