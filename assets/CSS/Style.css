@@ -608,36 +608,61 @@
         height: 300px;
         margin-left: 32.5%;
     }  
+    .parallax-height {
+        height: 1225px!important;
+    }
+    .trivia-pic {
+        margin-top: 50px;
+    }
+    .giftastic-pic {
+        margin-top: -40px;
+    }
     .text {
         padding: 75px 115px;
     }
+    #contact-page {
+        margin-left: 41%;
+    }
     #contact-hr {
-        margin-left: 39%;
+        margin-left: 38%;
+        margin-top: -20px;
+        margin-bottom: 50px;
     }
     #touch-hr {
-        margin-left: 42%;
-        width: 20%;
+        margin-left: 35%;
+        width: 35%;
     }
     #get-in-touch {
-        margin-left: 27%;
+        width: 100%;
+        margin-left: 22%;
+    }
+    #contact-phone, #contact-email, #contact-follow  {
+        margin-left: 43%;
+    }
+    #contact-address {
+        margin-left: 40.3%;
     }
     #contact-phone-hr, #contact-follow-hr {
-        width: 10%;
+        width: 11%;
+    }
+    #contact-span-phone {
+        margin-left: 38%;
     }
     #contact-address-hr {
-        width: 14%;
+        width: 16%;
+        margin-left: 45%;
     }
     #contact-email-hr {
         width: 9%;
     }
     .submit-btn {
-        margin-left: 24%;
+        margin-left: 17%;
     }
     iframe {
-        width: 860px!important;
+        width: 670px!important;
     }
     .top-btn {
-        margin-left: 40.1%;
+        margin-left: 37%;
     }
 
 }
