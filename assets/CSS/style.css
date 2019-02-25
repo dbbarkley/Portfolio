@@ -487,7 +487,7 @@
     opacity: .8;
 } 
 
-/* Media Queries ============================================ */ 
+/* Media Queries 960px ============================================ */ 
 
 @media screen and (max-width: 992px) {
     
@@ -561,6 +561,8 @@
     }
 
 }
+/* Media Queries 768px ============================================ */ 
+
 @media screen and (max-width: 768px) {
     
     #name {
@@ -652,8 +654,17 @@
         width: 16%;
         margin-left: 45%;
     }
+    #contact-span-address {
+        margin-left: 20%;
+    }
+    #contact-span-email {
+        margin-left: 27%;
+    }
     #contact-email-hr {
         width: 9%;
+    }
+    #github {
+        margin-left: -5%;
     }
     .submit-btn {
         margin-left: 17%;
