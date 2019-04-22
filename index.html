@@ -9,290 +9,296 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:700|Raleway:600|Tienne:900" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
     <link rel="stylesheet" href="assets/CSS/style.css">
     <title>Barkley Designs</title>
 </head>
 <body>
 
-    <div id="main-container" class="main-container scrollspy">
-
     <div class="parallax-container">
             <nav class="nav-wrapper transparent">
              
-                    <div class="container">
-                        <a href="#" class="center brand-logo">Barkley Designs</a>
+                <div class="ui center aligned container">
                   <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="#text">About Me</a></li>
-                    <li><a href="#portfolio-container">Portfolio</a></li>
-                    <li><a href="#contact-text">Contact</a></li>
+                    <li><a href="#scrollspy">Portfolio</a></li>
+                    <li><a href="#scrollspy2">Contact</a></li>
                   </ul>
                 </div>
             </nav>
+            <div class="ui center aligned container">
+                <div class="column"></div>
+                    <h2 id="name">DANIEL BARKLEY</h2>
+                </div>
             <div class="row">
-                <div class="col s4"></div>
-                  <div class="col s4">
-                    <p id="name">DANIEL BARKLEY</p>
+                <div class="col m4"></div>
+                  <div class="col m4">
+                    <div id="fragment1">Web Developer</div>
+                    <div id="fragment2">UI/UX Developer</div>
                   </div>
-                <div class="col s4"></div>
-            </div>
-            <div class="row">
-                <div class="col s4"></div>
-                  <div class="col s4">
-                    <div id="fragment1">Web Developer</div><div id="fragment2">UI/UX Developer</div>
-                  </div>
-                <div class="col s4"></div>
+                <div class="col 4"></div>
             </div>
         <div class="parallax"><img src="assets/Images/main.jpg"></div>
     </div>
 
-</div>
 
 
 
-<div class="about-container">
+<div id="about-container">
+    <div class="ui center aligned container">
 
-    <div class="row">
-        <div class="col s4"></div>
-            <div class="col s4">
-                <h3 id="about">About Me</h3>
-                <hr id="about-me-hr">
+    <div class="ui centered grid">
+            <div>
+                <h3 id="headers">About Me</h3>
+                <hr id="headers-hr">
             </div>
-            <div class="col s4"></div>
         </div>
+    <div class="ui stackable equal width grid">
 
-    <div class="row about-me">
-        <div class="col l6">
-            <img id="portfolio-image" src="assets/Images/maybe.jpg">
+        <div class="eight wide column">
+            <img id="portfolio-image" class="ui image" src="assets/Images/maybe.jpg">
         </div>
-        <div class="col l6 main-content">
+        <div class="eight wide column main-content">
             <h5 id="description">Full-Stack Developer & Web Designer</h5>
             <p id="text" class="scrollspy">Hello! I’m <span id="name-color">Daniel Barkley</span>. I'm a Web Developer with experience in all stages of the development cycle for dynamic web projects. Having an in-depth knowledge, including advanced <span id="name-color">HTML5, CSS3, JavaScript, jQuery, Node.JS.</span> I aim to make a difference through my creative solutions.</p>
-            <div class="row">
-                <div class="col l6">
-                    <p id="p-name">Name: <span id="span-name">Daniel Barkley</span></p>
-                        <hr id="name-hr">
-                    <p id="p-age">Age: <span id="span-age">26</span></p>
-                        <hr id="age-hr">
-                    <p id="p-email">Email: <span id="span-email">dbbarkley93@gmail.com</span></p>
-                        <hr id="email-hr">
+            <div class="ui grid">
+                <!--<div class="eight wide column">
                     <a class="waves-effect waves-light btn reusme-btn" href="Resume.docx" download="Daniel Barkley Resume">Resume</a>
+                </div>-->
+                <div class="eight wide column">
                 </div>
-                <div class="col l6">
-                    <p id="p-phone">Phone: <span id="span-phone">512-960-0262</span></p>
-                        <hr id="phone-hr">
-                    <p id="p-address">Address: <span id="span-address">701 Brazos St, Austin</span></p>
-                        <hr id="address-hr">
-                    <p id="p-freelance">Freelance: <span id="span-freelance">Available</span></p>
-                        <hr id="freelance-hr">
+
+        </div>
+        </div>
+    </div>
+    <div class="ui black divider"></div>
+
+    <div class="ui centered grid">
+        <div>
+            <h4 id="headers">Experience</h4>
+            <hr id="headers-hr">
+        </div>
+    </div>
+
+            <div class="ui two column stackable equal width grid">
+                <div class="column">
+                    <h3 id="experience-section">Front-End Devlopment:</h3>
+                    <img class="icons" src="assets/Images/HTML_Logo.png">
+                    <img class="icons" src="assets/Images/css-3-logo-png-transparent.png">
+                    <img class="icons" src="assets/Images/React.png">
+                    <img class="icons" src="assets/Images/js.png">
+                    <img class="icons" src="assets/Images/jquery.png">
+                    <img class="icons" src="assets/Images/Boostrap_logo.svg">
+                    <img class="icons" src="assets/Images/materialze.png">
+                    <img class="icons github" src="assets/Images/github.png">
+                    <img class="icons firebase" src="assets/Images/firebase.png">
+                </div>
+                <div class="column">
+                    <h3 id="experience-section">Back-End Devlopment:</h3>
+                    <img class="icons" src="assets/Images/nodejs-512.png">
+                    <img class="icons" src="assets/Images/npm-logo.png">
+                    <img class="icons" src="assets/Images/sequelize-3-1175091.png">
+                    <img class="icons" src="assets/Images/express.png">
+                    <img class="icons" src="assets/Images/mocha.svg">
+                    <img class="icons chai" src="assets/Images/chai.png">
+                    <img class="icons" src="assets/Images/heroku.png">
+                    <img class="icons handlebars" src="assets/Images/handlebars-js.png">
+                    <img class="icons" src="assets/Images/mysql_PNG9.png">
+                    <img class="icons" src="assets/Images/mongo.db.png">
                 </div>
             </div>
-        </div>
-    </div>
-
-
-    <div class="row">
-        <div class="col s4"></div>
-            <div class="col s4">
-                <h4 id="services">Experience</h4>
-                <hr id="services-hr">
-            </div>
-        <div class="col s4"></div>
-    </div>
-
-    <div class="row">
-        <div class="col s4">
-            <i class="fas fa-desktop fonts" aria-hidden='true'></i>
-            <h5 id="service-section">Full-Stack Development</h5>
-        </div>
-            <div class="col s4">
-            <i class="fas fa-dice-d20 fonts" aria-hidden='true'></i>
-            <h5 id="service-section">Brand Identity</h5>
-        </div>
-        <div class="col s4">
-            <i class="fas fa-database fonts" aria-hidden='true'></i>
-            <h5 id="service-section">Data Management</h5>
-        </div>
-    </div>
-
+         
+</div>
 </div>
 
-
-
-<div class="portfolio-container">
-
     <div class="parallax-container parallax-height">
-
-        <div class="row">
-            <div class="col s4"></div>
-                <div class="col s4">
-                    <h3 id="portfolio-text">Portfolio</h3>
-                    <hr id="portfolio-hr">
+        <div class="ui center aligned container">
+            <div class="ui centered grid">
+                <div>
+                    <h3 id="headers">Portfolio</h3>
+                    <hr id="headers-hr">
                 </div>
-            <div class="col s4"></div>
-        </div>
-
-                <div class="row row-1">
-                    <div id="portfolio-page" class="col m6">
-                        <div id="portfolio-container" class="image-container scrollspy">
-                            <a href="https://dbbarkley.github.io/Project-1/" target="_blank">
-                            <img class="project-pic" src="assets/Images/foodflix.png" alt="Project #1">
-                            <div class="middle">
-                                <div class='text'>
-                                    <p id="project-head">FoodFlix</p>
-                                    <p id="project-text">Search Recipes by Ingredients and Find Your Perfect Movie Match.</p>
+            </div>
+            <div class="ui very padded segment">
+                <div class="ui stackable equal width centered grid">
+                    <div class="eight wide column">
+                        <div id="scrollspy" class="ui raised card scrollspy">
+                            <div class="ui slide masked reveal image">
+                                <img src="/assets/Images/bootcampB-login.png" class="visible content">
+                                <img src="/assets/Images/bootcampB-user.png" class="hidden content">
+                            </div>
+                            <div class="content">
+                                <p class="header">BootCamp Bank</p>
+                                <div class="meta">
+                                <span class="date">BootCamp Bank is a budgeting application that allows users to track their spending habits. We're utilizing MySQL to record and query every transaction.</span>
                                 </div>
-
-                            </div>       
-                        </div>
-                    </div>
-                    <div class="col m6">
-                            <div class="image-container">
-                        <a href="https://dbbarkley.github.io/TriviaGame/" target="=_blank">
-                        <img class="trivia-pic" src="assets/Images/trivia-game.png" alt="Trivia Game">
-                        <div class="middle">
-                                <div class='text'>
-                                    <p id="trivia-head">Trivia Game</p>
-                                    <p id="trivia-text">A Gaurdians of the Galaxy Themed Trivie Game.</p>
-                                </div>
-                            </div>       
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row row-2">              
-                        <div class="col m6">
-                                <div class="image-container">
-                            <a href="https://dbbarkley.github.io/GifTastic/" target="=_blank">
-                            <img class="giftastic-pic" src="assets/Images/Giftastic.png" alt="GifTastic">
-                            <div class="middle">
-                                    <div class='text'>
-                                        <p id="project-head">GifTastic</p>
-                                        <p id="project-text">Search for Your Favorite Gifs.</p>
-                                    </div>
-                                </div>       
+                            </div>
+                            <div class="extra content">
+                                    <a href="#" target="_blank" rel="noopener noreferrer"><button class="ui button port-btn">Website</button></a>
+                                    <a href="https://github.com/ndgithub/project-2" target="_blank" rel="noopener noreferrer"><button class="ui button port-btn">Github Repo</button></a>
+                                <!--<button class="ui button port-btn">Watch Gif</button>-->
                             </div>
                         </div>
+                    </div>
+                <div class="eight wide column">
+                     <div class="ui raised card">
+                        <div class="ui slide masked reveal image">
+                            <img src="/assets/Images/foodflix.png" class="visible content">
+                            <img src="/assets/Images/foodflix2.png" class="hidden content">
                         </div>
+                        <div class="content">
+                            <p class="header">FoodFlix</p>
+                            <div class="meta">
+                            <span class="date">FoodFlix is an app that is able to search recipes and movies via genre selection in 3 easy steps.</span>
+                            </div>
+                        </div>
+                        <div class="extra content">
+                            <a href="https://dbbarkley.github.io/Project-1/" target="_blank" rel="noopener noreferrer"><button class="ui button port-btn">Website</button></a>
+                            <a href="https://github.com/dbbarkley/Project-1" target="_blank" rel="noopener noreferrer"><button class="ui button port-btn">Github Repo</button></a>
+                            <!--<button class="ui button port-btn">Watch Gif</button>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ui stackable equal width centered grid">
+                    <div class="eight wide column">
+                            <div class="ui raised card">
+                                    <div class="ui slide masked reveal image">
+                                      <img src="/assets/Images/trivia-game.png" class="visible content">
+                                      <img src="/assets/Images/trivia2.png" class="hidden content">
+                                    </div>
+                                    <div class="content">
+                                      <p class="header">Trivia Game</p>
+                                      <div class="meta">
+                                        <span class="date">Answer the questions in under 60 seconds to win. Good Luck!</span>
+                                      </div>
+                                    </div>
+                                    <div class="extra content">
+                                            <a href="https://dbbarkley.github.io/TriviaGame/" target="_blank" rel="noopener noreferrer"><button class="ui button port-btn">Website</button></a>
+                                            <a href="https://github.com/dbbarkley/TriviaGame" target="_blank" rel="noopener noreferrer"><button class="ui button port-btn">Github Repo</button></a>
+                                        <!--<button class="ui button port-btn">Watch Gif</button>-->
+                                    </div>
+                                  </div>
+                    </div>
+                    <div class="eight wide column">
+                            <div class="ui raised card">
+                                    <div class="ui slide masked reveal image">
+                                      <img src="/assets/Images/Giftastic.png" class="visible content">
+                                      <img src="/assets/Images/giftastic2.png" class="hidden content">
+                                    </div>
+                                    <div class="content">
+                                      <p class="header">Gif-tastic</p>
+                                      <div class="meta">
+                                        <span class="date">Using the Giphy API a user can create buttons that will load gifs on the page.</span>
+                                      </div>
+                                    </div>
+                                    <div class="extra content">
+                                            <a href="https://dbbarkley.github.io/GifTastic/" target="_blank" rel="noopener noreferrer"><button class="ui button port-btn">Website</button></a>
+                                            <a href="https://github.com/dbbarkley/GifTastic" target="_blank" rel="noopener noreferrer"><button class="ui button port-btn">Github Repo</button></a>
+                                        <!--<button class="ui button port-btn">Watch Gif</button>-->
+                                    </div>
+                                  </div>
+                    </div>
+            </div>
+            </div>
                     
                 <div class="parallax"><img src="assets/Images/second.jpg"></div>
 
+       </div>
+    </div>
+
+
+    <div id="contact-container">
+
+    <div class="ui center aligned container">
+
+        <div class="ui centered grid">
+            <div>
+                <h3 id="headers">Contact</h3>
+                <hr id="headers-hr">
             </div>
         </div>
-
-    <div class="contact-container">
-
-        <div class="row">
-            <div class="col s4"></div>
-                <div class="col s4">
-                    <h3 id="contact-page">Contact</h3>
-                    <hr id="contact-hr"> 
+        <div class="ui stackable equal width centered grid">
+            <div class="eight wide column">
+                <div id="scrollspy2" class="ui centered grid scrollspy">
+                        <div>
+                            <h5 id="headers2">Get In Touch</h5>
+                            <hr id="headers-hr">
+                        </div>
                 </div>
-            <div class="col s4"></div>
-        </div>
-
-
-    <div class="row">
-        <div class="col m6 contact-section">
-                <div class="row">
-                        <div class="col s12">
-            <h4 id="get-in-touch">Get In Touch</h4>
-            <hr id="touch-hr"> 
-        </div>  
-    </div>
-            <p id="contact-text" class="scrollspy">For more information on any of my services or to talk about 
-                how I may be able to help you, please get in touch with me using the form opposite. 
-                Or you can call and follow my social media.</p>
-                <div class="row">
-                    <div class="col s12">
-                        <p id="contact-phone">Phone</p>
-                            <hr id="contact-phone-hr">
-                        <p id="contact-p-phone">512-960-0262</p>
+                <p id="contact-text" class="scrollspy">For more information on any of my services or to talk about 
+                    how I may be able to help you, please get in touch with me using the form opposite. 
+                    Or you can call and follow my social media.</p>
+                <div class="ui grid">
+                        <div>
+                        <p class="contact-info">Phone: <span class="contact-info-data">512-960-0262</span></p>
                     </div>  
                 </div>
-                <div class="row">
-                    <div class="col s12">
-                        <p id="contact-address">Address</p>
-                            <hr id="contact-address-hr">
-                        <p id="contact-p-address">701 Brazos St, Austin, TX 78701</p>
+                <div class="ui grid">
+                        <div>
+                        <p class="contact-info">Email: <span class="contact-info-data">dbbarkley93@gmail.com</span></p>
                     </div>  
                 </div>
-                <div class="row">
-                    <div class="col s12">
-                        <p id="contact-email">Email</p>
-                            <hr id="contact-email-hr">
-                        <p id="contact-p-email">ddbarkley93@gmail.com</p>
+                <div class="ui grid">
+                        <div>
+                        <p class="contact-info">Address: <span class="contact-info-data">701 Brazos St, Austin, TX 78701</span></p>
                     </div>  
                 </div>
-                <div class="row">
-                    <div class="col s12">
-                        <p id="contact-follow">Follow</p>
-                            <hr id="contact-follow-hr">
-                        <p id="links">                                                                                                                                                                                                       
-                            <a id="github" href="https://github.com/dbbarkley?tab=repositories" target="_blank"><i class="fab fa-3x fa-github github"></i></a>
-                            <a id="linkedin" href="https://www.linkedin.com/in/daniel-barkley-4b00aa90/" target="_blank"><i class="fab fa-3x fa-linkedin linkedin"></i></a>
+                <div class="ui grid">
+                    <div>
+                        <p class="contact-info follow">Follow:                                                                                                                                                                                                      
+                            <a href="https://github.com/dbbarkley?tab=repositories" target="_blank"><i class="big github icon"></i></a>
+                            <a href="https://www.linkedin.com/in/daniel-barkley-4b00aa90/" target="_blank"><i class="big linkedin icon"></i></a>
                         </p>
                     </div>  
                 </div>
-        </div>
+            </div>
 
-     <!-- Modal Structure -->
-    <div id="modal1" class="modal">
-        <div class="modal-content">
-          <h2>Message Sent</h2>
-        </div>
-    </div>
-
-        <div class="col m6">
-            <div class="row submit-message">
-                <form class="col s12">
-                  <div class="row email row-name">
-                    <div class="input-field col s12">
-                      <input placeholder="Your Name" id="first_name" type="text" class="validate">
-                      <label for="first_name"></label>
-                    </div>
-                  </div>
-                  <div class="row row-email">
-                    <div class="input-field col s12">
-                      <input placeholder="Your Email" id="email" type="email" class="validate">
-                      <label for="email"></label>
-                    </div>
+        <div class="eight wide column form-border">
+            <form>
+                <div class="input-field">
+                    <input placeholder="Your Name" id="first_name" type="text" class="validate">
+                    <label for="first_name"></label>
+                </div>
+                <div class="input-field">
+                    <input placeholder="Your Email" id="email" type="email" class="validate">
+                    <label for="email"></label>
+                </div>
+                <div class="input-field">
+                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                    <label for="textarea1">Message</label>
                 </div>
                 <div class="row">
-                    <form class="col s12">
-                      <div class="row row-message">
-                        <div class="input-field col s12">
-                          <textarea id="textarea1" class="materialize-textarea"></textarea>
-                          <label for="textarea1">Message</label>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                  <div class="row">
-                      <div class="col s12 submit-row">
-                          <a class="waves-effect waves-light btn-large submit-btn modal-trigger" href="#modal1"><i class="material-icons left">send</i>Send Message</a>
-                      </div>  
-                  </div>      
+                    <div class="col s12 submit-row">
+                        <a class="waves-effect waves-light btn-large submit-btn modal-trigger" href="#modal1"><i class="material-icons left">send</i>Send Message</a>
+                    </div>  
+                </div>      
                 </div>
-                </form>
-              </div>
+            </form> 
         </div>
-        <div class="row">
-            <div class="col s12 google-maps-row">
-                <div class="google-maps"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.8843753974734!2d-97.74275278525816!3d30.268875481801185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b5a76b09dd7f%3A0x796a12bb9db613d2!2s701+Brazos+St%2C+Austin%2C+TX+78701!5e0!3m2!1sen!2sus!4v1550835249488" width="100%" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-            </div>  
+
+        <div class="ui stackable equal width centered grid">
+            <div class="sixteen wide column">
+                <div class="google-maps"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.8843753974734!2d-97.74275278525816!3d30.268875481801185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b5a76b09dd7f%3A0x796a12bb9db613d2!2s701+Brazos+St%2C+Austin%2C+TX+78701!5e0!3m2!1sen!2sus!4v1550835249488" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+            </div>
         </div>
-        <div class="row">
-            <div class="col s12">
-                <a href="#main-container" class="waves-effect waves-light btn-large top-btn">Take Me To The Top</a>
-            </div>  
-        </div>
+        <div class="ui stackable equal width centered grid">
+                <div class="eight wide column">
+                    <a href="#nav-mobile" class="waves-effect waves-light btn-large top-btn">Take Me To The Top</a>
+                </div>  
+            </div>
+
     </div>
+    </div>
+    </div>
+
 
     
     <script
     src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script src="assets/JS/app.js"></script>
 </body>

@@ -1,35 +1,52 @@
 /* Main theme CSS ========================================= */
 
 .parallax-container {
-    height: 667px!important;
-  }
+    height: 685px!important;
+}
 .parallax-height {
-    height: 1025px!important;
+    height: 1150px!important;
 }
 .main-container {
     background-size: cover;
     background-position: center;
-  }
-
+}
+#headers, #headers2 {
+    width: 100%;
+    margin-top: 50px;
+    font-size: 45px;
+    color: white;
+}
+#headers2 {
+    font-size: 25px;
+}
+#headers-hr {
+    border-bottom-color: rgb(226, 193, 4);
+    border-top-color: rgb(226, 193, 4);
+    background-color: rgb(226, 193, 4);
+    border-inline-end-color: rgb(226, 193, 4); 
+    margin-top: -15px;
+    margin-bottom: 35px;
+}
 /* Home page CSS ========================================= */
 
 #name {
     margin-top: 150px;
-    width: 100%;
-    text-align: center;
     color: white;
     font-size: 35px;
     font-family: 'Raleway', sans-serif;
   }
 #fragment2 {
-    margin-left: -45px;
+    height: 75px!important;
+    padding-top: 20px;
     font-size: 60px;
     color: rgb(226, 193, 4);
     font-family: 'Merriweather', serif;
-    margin-top: -60px;
+    margin-top: -80px;
+    margin-left: -45px;
 }
-#fragment1
-{
+#fragment1 {
+    height: 75px!important;
+    padding-top: 20px;
     font-size: 60px;
     margin-left: -25px;
     margin-top: 20px;
@@ -83,42 +100,18 @@
 
 /* About-me page CSS ========================================= */
 
-.about-container {
+#about-container {
     background-color: rgb(11, 44, 54);
     padding-bottom: 100px;
-
 }
-#about {
-    width: 100%;
-    margin-top: 50px;
-    text-align: center;
-    color: white;
-}
-#about-me-hr, #services-hr {
-    border-bottom-color: rgb(226, 193, 4);
-    border-top-color: rgb(226, 193, 4);
-    background-color: rgb(226, 193, 4);
-    border-inline-end-color: rgb(226, 193, 4); 
-    border-radius: 3px;
-    margin-bottom: 50px;
-    height: 1px!important;
-    margin-top: -15px;
-    width: 100%;
+.seg-color {
+    background-color: rgb(11, 44, 54)!important;    
 }
 #portfolio-image {
-    margin-left: 10%;
-    width: 85%;
-    height: 100%;
-    border: 2px rgb(31, 30, 30) solid;
-    border-radius: 3px;
-    box-shadow: 2px 2px 25px 2px rgb(24, 24, 24);
-}
-.about-me {
-    margin-top: 5%;
+    width: 100%;
 }
 #description {
-    color: white;
-    margin-top: -.5%;   
+    color: white; 
     letter-spacing: 1px;
 }
 #text {
@@ -128,30 +121,6 @@
 }
 #name-color {
     color: rgb(226, 193, 4);
-}
-#name-hr, #age-hr, #email-hr, #phone-hr, #address-hr, #freelance-hr {
-    border-bottom-color: rgb(226, 193, 4);
-    border-top-color: rgb(226, 193, 4);
-    background-color: rgb(226, 193, 4);
-    border-inline-end-color: rgb(226, 193, 4); 
-    border-radius: 3px;
-    width: 20%;
-    margin-left: -4%;
-}
-#age-hr {
-    width: 13%;
-}
-#email-hr {
-    width: 19%;
-}
-#phone-hr {
-    width: 21.5%;
-}
-#address-hr {
-    width: 28%;
-}
-#freelance-hr {
-    width: 33.5%;
 }
 #span-name, #span-age, #span-email, #span-phone, #span-address, #span-freelance {
     color: white;
@@ -172,162 +141,56 @@
 .reusme-btn:hover {
     opacity: 0.7;
 }
-.fonts {
-    font-size: 50px;
-    color: rgb(226, 193, 4);
-    margin-top: 20%;
-    display: inline-block;
-    width: 100%;
-    text-align: center;
+.experience {
+    background-color: rgb(11, 44, 54)!important;
 }
-#service-section {
+.icons {
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+}
+.handlebars {
+    width: 100px;
+    height: 100px;
+    margin-top: -30px;
+    margin-bottom: -15px; 
+}
+.chai {
+    width: 90px;
+}
+.firebase {
+    margin-top: -10px;
+    margin-bottom: -4px;
+    width: 80px;
+    height: 80px;
+}
+#experience-section {
     color: white;
     text-align: center;
-}
-.web-text {
-    color: white;
-    text-align: center;
-}
-#services {
-    width: 100%;
-    text-align: center;
-    margin-top: 5%;
-    color: white;
-}
-#services-hr {
-    margin-top: -10 px;
-    height: 1px!important;
-    margin-bottom: -2%;
-    width: 100%;
 }
 
 /* Portfolio page CSS ========================================= */
-
-
-#portfolio-text {
-    width: 100%;
-    text-align: center;
-    padding-top: 25px;
-    color: white;
+.img-background {
+    background-color: rgb(11, 44, 54);
 }
-#portfolio-hr {
-    border-bottom-color: rgb(226, 193, 4);
-    border-top-color: rgb(226, 193, 4);
-    background-color: rgb(226, 193, 4);
-    border-inline-end-color: rgb(226, 193, 4); 
-    border-radius: 3px;
-    height: 1px!important;
-    margin-top: -20px;
-    width: 100%;
+.card {
+    width: 4250px!important;
 }
-.row-1 {
-    margin-top: 8%;
-    padding-bottom: 75px;
+.port-btn {
+    background-color: rgb(226, 193, 4)!important;
 }
-.project-pic, .giftastic-pic, .trivia-pic {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: 100%;
-    transition: .5s ease;
-    backface-visibility: hidden;
-    border: 2px rgb(63, 62, 62) solid;
-    box-shadow: 2px 2px 25px 2px rgba(0, 0, 0, 0.288);
-}
-.image-container {
-    position: relative;
-    width: 89%;
-    height: 80%;
-    margin-left: 5.5%;
-}   
-.middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-    box-shadow: 2px 2px 25px 2px rgb(24, 24, 24);
-}
-.image-container:hover .project-pic {
-    opacity: 0.6;
-}
-.image-container:hover .trivia-pic {
-    opacity: 0.6;
-}
-.image-container:hover .giftastic-pic {
-    opacity: 0.6;
-}
-.image-container:hover .middle {
-    opacity: 1;
-}
-.text {
-    background-color: rgba(247, 244, 244, 0.966);
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    padding: 75px 175px;
-}
-#project-head {
-    font-size: 40px;
-    padding-bottom: 30px;
-    text-decoration: underline;
-}
-#project-text {
-    width: 150%;
-    margin-left: -24%;
-}
-#trivia-head {
-    font-size: 40px;
-    padding-bottom: 30px;
-    width: 300%;
-    margin-left: -100%;
-    text-decoration: underline;
-}
-#trivia-text {
-    width: 170%;
-    margin-left: -54%;
-    padding-left: 60px;
-}
-
 /* Contact page CSS ========================================= */ 
 
-
-.contact-container {
+#contact-container {
     background-color: rgb(41, 40, 40);
     padding-bottom: 100px;
-    padding-top: 85px;
+    padding-top: 45px;
 }
-#contact-hr, #touch-hr  {
-    border-bottom-color: rgb(226, 193, 4);
-    border-top-color: rgb(226, 193, 4);
-    background-color: rgb(226, 193, 4);
-    border-inline-end-color: rgb(226, 193, 4); 
-    border-radius: 3px;
-    height: 1px!important;
-    margin-top: -20px;
-    width: 100%;
-}
-#contact-page {
-    width: 100%;
-    text-align: center;
-    margin-top: -3%;
-    color: white;
-}
-.submit-message {
-    margin-top: 75px;
-    width: 85%;
+.form-border {
+    margin-top: 50px;
     border: 2px rgb(31, 30, 30) solid;
     border-radius: 3px;
     box-shadow: 2px 2px 25px 2px rgb(24, 24, 24);
-}
-.row-name {
-    color: white;
-}
-.row-email, .row-message {
-    color: white;
-    margin-top: -15%;
 }
 .submit-btn {
     width: 225px;
@@ -335,92 +198,25 @@
     margin: 0 auto;
     background-color: rgb(3,155,229)!important;
 }
-.modal-content {
-    text-align: center;
-    background-color: rgb(41, 40, 40);
-    color: rgb(226, 193, 4);
-}
-#touch-hr {
-    margin-top: -15px;
-    width: 50%;
-}
-#get-in-touch {
-    width: 100%;
-    text-align: center;
-    color: white;
-}
-.contact-section {
-    margin-top: 6.3%;
-    width: 40.9%!important;
-    margin-left: 6%!important;
-}
 #contact-text {
     color: white;
+    font-size: 20px;
     margin-top: 25px;
     text-align: center;
     letter-spacing: 1px;
     line-height: 25px;
-    margin-bottom: 18px;
 }
-#contact-phone {
-    font-size: 20px;
-    width: 100%;
-    text-align: center;
-    color: rgb(175, 173, 173);
+.contact-info {
+    font-size: 25px;
+    padding-top: 15px;
+    color:  rgb(241, 213, 53);
 }
-#contact-phone-hr, #contact-address-hr, #contact-email-hr, #contact-follow-hr {
-    border-bottom-color: rgb(226, 193, 4);
-    border-top-color: rgb(226, 193, 4);
-    background-color: rgb(226, 193, 4);
-    border-inline-end-color: rgb(226, 193, 4); 
-    border-radius: 3px;
-    height: 1px!important;
-    margin-top: -.5px;
-    width: 35px;
-}
-#contact-p-phone, #contact-p-email, #contact-p-address {
-    width: 100%;
-    text-align: center;
+.contact-info-data{
     color: white;
+    font-size: 18px;
 }
-#contact-address {
-    font-size: 20px;
-    width: 100%;
-    text-align: center;
-    color: rgb(175, 173, 173);
-}
-#contact-address-hr {
-    width: 50px;
-}
-#contact-email {
-    font-size: 20px;
-    width: 100%;
-    text-align: center;
-    color: rgb(175, 173, 173);
-}
-#contact-email-hr {
-    width: 30px;
-}
-#contact-follow {
-    font-size: 20px;
-    width: 100%;
-    text-align: center;
-    color: rgb(175, 173, 173);
-}
-#contact-follow-hr {
-    width: 40px;
-}
-#links {
-    width: 100%;
-    display: inline-block;
-    text-align: center;
-}
-#github {
-  padding-right: 20px;
-}
+
 .google-maps {
-    width: 85%;
-    margin: auto;
     margin-top: 40px;
 }
 .top-btn {
@@ -435,22 +231,12 @@
     opacity: .8;
 } 
 
-/* Media Queries 960px ============================================ */ 
+/* Media Queries 960px ============================================ */
 
 @media screen and (max-width: 992px) {
 
-    .main-content {
-        margin-left: 9%;
-        width: 80%!important;
-    }
-    .text {
-        padding: 75px 115px;
-    }
-    .submit-btn {
-        width: 225px;
-    }
 }
-/* Media Queries 570px ============================================ */ 
+/* Media Queries 570px ============================================
 
 @media screen and (max-width: 570px) {
     
@@ -472,7 +258,7 @@
     }
 }
 
-/* Media Queries 420px ============================================ */ 
+/* Media Queries 420px ============================================  
 
 @media screen and (max-width: 420px) {
     

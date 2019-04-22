@@ -12,3 +12,7 @@ $(".submit-btn").on("click", function() {
 
 $('#textarea1').val('');
 $('#textarea1').trigger('autoresize');
+
+$('.icons').mouseenter(function() {
+  $(this).transition('bounce')
+});
